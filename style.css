@@ -68,14 +68,14 @@ hr
     {
         width: 100%;
     }
-    .players{
+    .players, .blogs{
         display: grid;
         grid-template-columns: repeat(1,1fr);
     }
-    .blogs
+    .player
     {
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
+        flex-direction: column;
     }
+ 
     
 }
