@@ -43,6 +43,11 @@ body
 .player_name{
     margin-left: 10px;
 }
+hr
+{
+    margin-top: 10px;
+    border: 2px solid blue;
+}
 
 /* Media queries */
 @media only screen and (max-width:688px) {
