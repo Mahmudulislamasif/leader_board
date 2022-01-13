@@ -1,0 +1,58 @@
+/* fons name poppin */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: 'Poppins', sans-serif;
+    background-color: #F3F1FF;
+}
+
+.container
+{
+    background-color: rgb(230, 230, 233);
+    width: 870px;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+/* player info */
+.section_title
+{
+    color: blue;
+    margin-bottom: 20px;
+}
+.players
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 10px;
+}
+.player
+{
+    display: flex;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player_name{
+    margin-left: 10px;
+}
+
+/* Media queries */
+@media only screen and (max-width:688px) {
+    .container
+    {
+        width: 100%;
+    }
+    .players{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+}
