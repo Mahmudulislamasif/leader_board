@@ -48,6 +48,17 @@ hr
     margin-top: 10px;
     border: 5px solid blue;
 }
+/* Blogs elements */
+
+.blogs
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.blog img
+{
+    width: 200px;
+}
 
 /* Media queries */
 @media only screen and (max-width:688px) {
@@ -56,6 +67,11 @@ hr
         width: 100%;
     }
     .players{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .blogs
+    {
         display: grid;
         grid-template-columns: repeat(1,1fr);
     }
